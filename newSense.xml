@@ -128,26 +128,16 @@
                                                                                   <block type="math_arithmetic" id="288" inline="true">
                                                                                     <field name="OP">DIVIDE</field>
                                                                                     <value name="A">
-                                                                                      <block type="math_arithmetic" id="289" inline="true">
+                                                                                      <block type="math_arithmetic" id="412" inline="true">
                                                                                         <field name="OP">MULTIPLY</field>
                                                                                         <value name="A">
-                                                                                          <block type="sensor_object" id="261">
+                                                                                          <block type="sensor_object" id="413">
                                                                                             <field name="OBJECT">RIGHTFRONT</field>
                                                                                           </block>
                                                                                         </value>
                                                                                         <value name="B">
-                                                                                          <block type="math_arithmetic" id="412" inline="true">
-                                                                                            <field name="OP">MULTIPLY</field>
-                                                                                            <value name="A">
-                                                                                              <block type="sensor_object" id="413">
-                                                                                                <field name="OBJECT">RIGHTFRONT</field>
-                                                                                              </block>
-                                                                                            </value>
-                                                                                            <value name="B">
-                                                                                              <block type="sensor_object" id="291">
-                                                                                                <field name="OBJECT">RIGHTFRONT</field>
-                                                                                              </block>
-                                                                                            </value>
+                                                                                          <block type="sensor_object" id="291">
+                                                                                            <field name="OBJECT">RIGHTFRONT</field>
                                                                                           </block>
                                                                                         </value>
                                                                                       </block>
@@ -165,26 +155,16 @@
                                                                                       <block type="math_arithmetic" id="290" inline="true">
                                                                                         <field name="OP">DIVIDE</field>
                                                                                         <value name="A">
-                                                                                          <block type="math_arithmetic" id="349" inline="true">
+                                                                                          <block type="math_arithmetic" id="414" inline="true">
                                                                                             <field name="OP">MULTIPLY</field>
                                                                                             <value name="A">
-                                                                                              <block type="sensor_object" id="350">
+                                                                                              <block type="sensor_object" id="415">
                                                                                                 <field name="OBJECT">LEFTFRONT</field>
                                                                                               </block>
                                                                                             </value>
                                                                                             <value name="B">
-                                                                                              <block type="math_arithmetic" id="414" inline="true">
-                                                                                                <field name="OP">MULTIPLY</field>
-                                                                                                <value name="A">
-                                                                                                  <block type="sensor_object" id="415">
-                                                                                                    <field name="OBJECT">LEFTFRONT</field>
-                                                                                                  </block>
-                                                                                                </value>
-                                                                                                <value name="B">
-                                                                                                  <block type="sensor_object" id="416">
-                                                                                                    <field name="OBJECT">LEFTFRONT</field>
-                                                                                                  </block>
-                                                                                                </value>
+                                                                                              <block type="sensor_object" id="416">
+                                                                                                <field name="OBJECT">LEFTFRONT</field>
                                                                                               </block>
                                                                                             </value>
                                                                                           </block>
