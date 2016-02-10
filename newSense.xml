@@ -135,17 +135,24 @@
                                                                                   </block>
                                                                                 </value>
                                                                                 <next>
-                                                                                  <block type="movement_setmotors" id="219" inline="true">
-                                                                                    <value name="BOTHMOVLEFT">
-                                                                                      <block type="sensor_object" id="220">
-                                                                                        <field name="OBJECT">RIGHTFRONT</field>
+                                                                                  <block type="movement_right" id="247">
+                                                                                    <next>
+                                                                                      <block type="movement_setmotors" id="219" inline="true">
+                                                                                        <value name="BOTHMOVLEFT">
+                                                                                          <block type="sensor_object" id="220">
+                                                                                            <field name="OBJECT">RIGHTFRONT</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <value name="BOTHMOVRIGHT">
+                                                                                          <block type="sensor_object" id="221">
+                                                                                            <field name="OBJECT">RIGHTFRONT</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <next>
+                                                                                          <block type="movement_left" id="258"></block>
+                                                                                        </next>
                                                                                       </block>
-                                                                                    </value>
-                                                                                    <value name="BOTHMOVRIGHT">
-                                                                                      <block type="sensor_object" id="221">
-                                                                                        <field name="OBJECT">RIGHTFRONT</field>
-                                                                                      </block>
-                                                                                    </value>
+                                                                                    </next>
                                                                                   </block>
                                                                                 </next>
                                                                               </block>
