@@ -123,27 +123,57 @@
                                                                         <next>
                                                                           <block type="multimedia_doupdate" id="162">
                                                                             <next>
-                                                                              <block type="movement_setmotors" id="259" inline="true">
-                                                                                <value name="BOTHMOVLEFT">
-                                                                                  <block type="sensor_object" id="261">
-                                                                                    <field name="OBJECT">RIGHTFRONT</field>
-                                                                                  </block>
-                                                                                </value>
-                                                                                <value name="BOTHMOVRIGHT">
-                                                                                  <block type="sensor_object" id="260">
-                                                                                    <field name="OBJECT">LEFTFRONT</field>
+                                                                              <block type="movement_leftmotor" id="301" inline="true">
+                                                                                <value name="MOVLEFT">
+                                                                                  <block type="math_arithmetic" id="288" inline="true">
+                                                                                    <field name="OP">DIVIDE</field>
+                                                                                    <value name="A">
+                                                                                      <block type="math_arithmetic" id="289" inline="true">
+                                                                                        <field name="OP">MULTIPLY</field>
+                                                                                        <value name="A">
+                                                                                          <block type="sensor_object" id="261">
+                                                                                            <field name="OBJECT">RIGHTFRONT</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <value name="B">
+                                                                                          <block type="sensor_object" id="291">
+                                                                                            <field name="OBJECT">RIGHTFRONT</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <value name="B">
+                                                                                      <block type="math_number" id="309">
+                                                                                        <field name="NUM">100</field>
+                                                                                      </block>
+                                                                                    </value>
                                                                                   </block>
                                                                                 </value>
                                                                                 <next>
-                                                                                  <block type="movement_setmotors" id="262" inline="true">
-                                                                                    <value name="BOTHMOVLEFT">
-                                                                                      <block type="sensor_object" id="263">
-                                                                                        <field name="OBJECT">RIGHTSIDE</field>
-                                                                                      </block>
-                                                                                    </value>
-                                                                                    <value name="BOTHMOVRIGHT">
-                                                                                      <block type="sensor_object" id="264">
-                                                                                        <field name="OBJECT">LEFTSIDE</field>
+                                                                                  <block type="movement_rightmotor" id="348" inline="true">
+                                                                                    <value name="MOVRIGHT">
+                                                                                      <block type="math_arithmetic" id="290" inline="true">
+                                                                                        <field name="OP">DIVIDE</field>
+                                                                                        <value name="A">
+                                                                                          <block type="math_arithmetic" id="349" inline="true">
+                                                                                            <field name="OP">MULTIPLY</field>
+                                                                                            <value name="A">
+                                                                                              <block type="sensor_object" id="350">
+                                                                                                <field name="OBJECT">LEFTFRONT</field>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                            <value name="B">
+                                                                                              <block type="sensor_object" id="351">
+                                                                                                <field name="OBJECT">LEFTFRONT</field>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <value name="B">
+                                                                                          <block type="math_number" id="352">
+                                                                                            <field name="NUM">100</field>
+                                                                                          </block>
+                                                                                        </value>
                                                                                       </block>
                                                                                     </value>
                                                                                   </block>
