@@ -60,12 +60,12 @@
                                           <block type="movement_setmotors" id="130" inline="true">
                                             <value name="BOTHMOVLEFT">
                                               <block type="sensor_light" id="132">
-                                                <field name="LIGHT">LEFT</field>
+                                                <field name="LIGHT">RIGHT</field>
                                               </block>
                                             </value>
                                             <value name="BOTHMOVRIGHT">
                                               <block type="sensor_light" id="131">
-                                                <field name="LIGHT">RIGHT</field>
+                                                <field name="LIGHT">LEFT</field>
                                               </block>
                                             </value>
                                           </block>
